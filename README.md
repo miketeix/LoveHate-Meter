@@ -5,4 +5,4 @@ Node.js application that collects streaming tweets containing the words Love and
 
 The Arduino file is rigged to receive those values and accordingly activate two digitally addressable LED strips as if they were a meter oscillating between 0 and 100 (tweets/second).
 
-[![ScreenShot](/public/img/loveHate.jpg)](https://vimeo.com/77535786)
+[![ScreenShot](public/img/loveHate.jpg)](https://vimeo.com/77535786)

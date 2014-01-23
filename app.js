@@ -20,7 +20,6 @@ console.log(queryString);
 
   res.sendfile(__dirname + '/public/index.html');
 
- // port.listenToArduino();
 
 startLoveTwitStream();
 startHateTwitStream();

@@ -47,10 +47,10 @@ startHateTwitStream();
 function startLoveTwitStream (){
 	
 	var loveTwit = new twitter({
-	  consumer_key: 'WtaezZtuOO3NvP6kh1XGCw',
-	  consumer_secret: 'C9BbUzEwJ1zrYxfe3UCI75KNcURKKHInv4DqqQ4Y',
-	  access_token_key: '385230064-LTygDXHgEigBK2pwey39WXDMuGgFxG2iHAtdjbus',
-	  access_token_secret: 'qiIAVWmoS4pV0E23AvFJD53lNSNdoUjkH1EDCJOTA'
+	  consumer_key: '',
+	  consumer_secret: '',
+	  access_token_key: '',
+	  access_token_secret: ''
   
  	 });
   
@@ -78,10 +78,10 @@ function startLoveTwitStream (){
 function startHateTwitStream (){
 	
 	var hateTwit = new twitter({
-	  consumer_key: 'GBcEzqYEs0nzptPS36nugQ',
-	  consumer_secret: 'kjYX9zNY8yUyyWX1oggC76yJaSma3AwLrMTrAJIu0',
-	  access_token_key: '1258196060-3st5HJCw9suaoG3CWGWpzrn6mZGBd9zPfIfggas',
-	  access_token_secret: 'e8urFvZw9wIWGmTkMjCWPE2wLBteAklSUK7fAajF8'
+	  consumer_key: '',
+	  consumer_secret: '',
+	  access_token_key: '',
+	  access_token_secret: ''
   
  	 });
   

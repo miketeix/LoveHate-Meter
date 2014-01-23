@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Socket.IO Twitter Example</title>
+    <style type="text/css">
+
+    #wrap {
+      width: 100%;
+    }
+    .column {
+
+      float: left;
+      width: 50%;
+
+    }
+
+    </style>
+  </head>
+  <body>
+    <h1>Socket.IO Twitter Example</h1>
+	    <form name = "input" method="get" action="/"> 
+	        <input type="text" name="q">
+		    <input type="submit" value="Get tweets!">
+		</form>
+    <div id="wrap">
+        <div class="column">
+          <ul id="love"></ul>
+        </div>
+        <div class="column">
+          <ul id="hate"></ul>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+     <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io.connect('127.0.0.1');
+      jQuery(function ($) {
+        var loveList = $('#love');
+        socket.on('loveTweet', function (data) {
+          loveList
+            .prepend('<li> <img src="'+ data.pic+'" width="42" height="42">' + data.user + ': ' + data.text + '</li>');
+
+          });
+
+        var hateList = $('#hate');
+        socket.on('hateTweet', function (data) {
+          hateList
+            .prepend('<li> <img src="'+ data.pic+'" width="42" height="42">' + data.user + ': ' + data.text + '</li>');
+
+          });
+      });
+    </script>
+  </body>
+</html>

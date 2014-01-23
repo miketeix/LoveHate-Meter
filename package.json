@@ -1,0 +1,12 @@
+{
+  "name":"socket.io-twitter-example",
+  "version":"0.0.1",
+  "private":true,
+  "dependencies":{
+    "express":"3.1.0",
+    "ntwitter":"0.5.0",
+    "socket.io":"0.9.13",
+    "pi-gpio":"0.0.2",
+    "serialport": "https://github.com/voodootikigod/node-serialport/tarball/master"
+  }
+}

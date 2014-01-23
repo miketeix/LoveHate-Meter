@@ -1,0 +1,56 @@
+
+    #wrap {
+      width: 100%;
+    }
+
+    #love {
+
+    	background-color: #FF1F1F;
+    }
+
+     #hate {
+
+    	background-color: #3BAACE;
+    }
+    .column {
+
+      float: left;
+      width: 49%;
+
+
+    }
+ 	#title {
+ 		margin: 20px auto;
+ 		width: 1000px;
+    }
+
+    img {
+    	width: 100%;
+    	display: inline-block;
+
+    }
+    li img {
+      display: inline-block;
+      max-width: 42px;
+      vertical-align: middle;
+      padding: 5px 10px 10px 5px ;
+
+    }
+    
+
+    p{
+      display: inline-block;
+    }
+
+    li {
+    	list-style: none;
+    	background-color: #FFFFFF;
+    	margin-bottom: 10px;
+    	padding:10px;
+    	font-family: sans-serif;
+    }
+
+    ul {
+    	padding: 10px 5px 10px;
+
+	}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter Love-Hate Meter</title>
+    <link rel="stylesheet" type="text/css" href="public/css/main.css">
+  </head>
+  <body>
+    
+    <div id="title" ><img src="public/img/title.png"></div>
+    <div id="wrap">
+        <div class="column">
+        	<img style="margin-top:8px;"src="public/img/twitter-love.png">
+          <ul id="love"></ul>
+        </div>
+        <div class="column" style="margin-left:8px;">
+        	<img src="public/img/twitter-hate.png">
+          <ul style="margin-top: 11px;"id="hate"></ul>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="public/js/socket.js" type="text/javascript"></script>
+  </body>
+</html>

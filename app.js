@@ -15,14 +15,10 @@ app.use('/public', express.static(__dirname + "/public"));
   
 app.get('/', function (req, res) {
 
-queryString = req.query["q"];
-console.log(queryString);
-
-  res.sendfile(__dirname + '/public/index.html');
-
-
-startLoveTwitStream();
-startHateTwitStream();
+	res.sendfile(__dirname + '/public/index.html');
+	
+	startLoveTwitStream();
+	startHateTwitStream();
   
 });
 
@@ -100,13 +96,4 @@ function startHateTwitStream (){
 			  
 	});
 	  
-}
-
-
-
-
-
-  
-
-
-
+};
